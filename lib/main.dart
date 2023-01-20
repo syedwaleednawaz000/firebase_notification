@@ -4,6 +4,8 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:push_notification/view/login.dart';
 
+import 'view/timerscreen.dart';
+
 void main() async{
   WidgetsFlutterBinding.ensureInitialized();
   await Firebase.initializeApp();
@@ -19,6 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return const GetMaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Push Notification',
       home: LogIn(),
     );
