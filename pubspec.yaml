@@ -45,8 +45,10 @@ dependencies:
 #  geocoder:
   google_maps_flutter:
   address_search_field: ^5.0.3
+  workmanager: ^0.5.1
   location:
   permission_handler:
+  flutter_background_service: ^2.4.6
   flutter_google_places: ^0.3.0
   percent_indicator: ^4.2.2
   quiver: ^3.2.1
